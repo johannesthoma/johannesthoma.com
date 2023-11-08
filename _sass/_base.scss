@@ -152,10 +152,12 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: auto;
+//    min-height: 250;
     @include background-cover;
+
     background-position: center;
-    background-image: url('../img/jt-fazioli.jpg');
+    background-image: url('../img/johannes-thoma2.jpg');
+    background-repeat: no-repeat;
     text-align: center;
     color: white;
     .header-content {
